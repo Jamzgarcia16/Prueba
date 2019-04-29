@@ -1,0 +1,1 @@
+<img src="../imagenes/lovephp.jpg" alt="Logo" width="75%">
