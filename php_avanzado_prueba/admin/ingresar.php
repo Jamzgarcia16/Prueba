@@ -1,4 +1,5 @@
-<?php
+<?php 
+defined("TOKEN_L34567") or die("Acceso no autorizado!");
 /*
 echo "<pre>";
 print_r($_GET);
@@ -20,11 +21,11 @@ if (isset($_POST["email"]) && isset($_POST["clave"])) {
 			# Usuario autenticado ok
 			# Activar la sessión
 			$_SESSION["pav"]=$fila;
-			header("location: index.php");
+			header("location: index1.php");
 		} elseif ($bd->obtener_error() == "") {
 			# Error en autenticación
 			$_SESSION["error1"]="Error en la cuenta o la clave";
-			header("location: login.php");
+			header("location: login1.php");
 		} else {
 			# Error en ejecución del Query
 			$_SESSION["error1"]="Error a301, en este momento no hay servicio, intente mas tarde";
@@ -33,7 +34,7 @@ if (isset($_POST["email"]) && isset($_POST["clave"])) {
 	} else {
 		# Error en conexión a la BD
 		$_SESSION["error1"]="Error a302, en este momento no hay servicio, intente mas tarde";
-		header("location: login.php");
+		header("location: login1.php");
 	}
 }
 ?>

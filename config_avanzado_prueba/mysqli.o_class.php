@@ -67,6 +67,9 @@ class base
 		}
 		return $fila;
 	}
+	function obtener_db() {
+	return($this->b);
+	}
 	function num_filas() {
 		return $this->id_resultado->num_rows;
 	}

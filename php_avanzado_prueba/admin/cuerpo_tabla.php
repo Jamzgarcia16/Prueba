@@ -1,4 +1,5 @@
-<?php
+<?php 
+defined("TOKEN_L34567") or die("Acceso no autorizado!");
 /*
 # Pinta el cuerpo (body) de la tabla para la tabla pivote
 if ($tabla_cuerpo) {

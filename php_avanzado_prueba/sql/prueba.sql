@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-04-2019 a las 23:31:30
+-- Tiempo de generación: 23-04-2019 a las 07:05:06
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.0.33
 
@@ -192,13 +192,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `aux_perfiles_menus`
 --
 ALTER TABLE `aux_perfiles_menus`
-  MODIFY `id_aux` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id_aux` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT de la tabla `goods`
 --
 ALTER TABLE `goods`
-  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `menus`
